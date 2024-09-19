@@ -12,8 +12,9 @@
             padding: 0;
             background-image: url('https://www.cprime.com/wp-content/uploads/2022/12/cprime-myths-about-embedded-systems-development.jpeg');
             background: linear-gradient(to right, #853535, #4f0707);
-            color: #ddbdd0cb;
+            color: #66119eda;
         }
+        
         .container {
             width: 80%;
             max-width: 800px;
@@ -120,18 +121,56 @@
         </section>
 
        
-        <section>
+       <section class="fade-in">
+        <section class="fade-in">
             <h2>Projects</h2>
-            <ul>
-                <li><strong>Pressure Detection System:</strong> <a href="#" target="_blank">Built a system for detecting high pressure in an aircraft cabin using a pressure sensor and STM32 microcontroller, with alarms triggered based on a state machine algorithm.</a></li>
-                <li><strong>ATMEGA32 and STM32F103C6 Drivers:</strong> <a href="https://github.com/ahmedshaban744/embedded-systeam" target="_blank">Wrote drivers for both microcontrollers, covering 95% of the features of the hardware modules, and structured them for reuse in future projects.</a></li>
-                <li><strong>Smart Home System:</strong> <a href="https://github.com/ahmedshaban744/ITI_Training" target="_blank">Developed a smart home system that controls 4 rooms using various sensors (LDR, LM35), interfacing hardware like LCD and keypad, with SPI and UART protocols for communication between two microcontrollers.</a></li>
-                <li><strong>Real-Time Operating System (RTOS):</strong> <a href="https://github.com/ahmedshaban744/embedded-systeam" target="_blank">Developed a custom RTOS (Ahmed_RTLS) from scratch, supporting essential task management for efficient system performance.</a></li>
-                <li><strong>Driving Monitoring Systems (Graduation Project):</strong> <a href="https://drive.google.com/drive/folders/1Su6FFkj7Ss2X8lSbhjKZSfqy42YQ3XVp" target="_blank">This project reduces accidents caused by driver fatigue by monitoring facial expressions, eye movements, and vital signs using cameras and sensors connected to STM32, ESP32, and Raspberry Pi systems.</a></li>
-                <li><strong>Speed Dashboard System using CANoe & CAPL:</strong> <a href="https://drive.google.com/drive/folders/1zLFrFtTUWpmcWQpFa4t-yErIl7O-niaR" target="_blank">Developed a speed dashboard system using CANoe and CAPL scripting, where two MCUs interact to simulate vehicle acceleration/deceleration, with LED indicators for speed thresholds.</a></li>
-                <li><strong>Database for Student Management (C Project):</strong> <a href="#" target="_blank">Implemented a database system for managing student information using LinkedList and FIFO data structures, with APIs for adding, deleting, and searching students by ID.</a></li>
-            </ul>
+            <div class="project-container">
+                <div class="project-card">
+                    <h3>Pressure Detection System</h3>
+                    <p>Built a system for detecting high pressure in an aircraft cabin using a pressure sensor and STM32 microcontroller, with alarms triggered based on a state machine algorithm.</p>
+                    <button onclick="window.open('#', '_blank')">View Project</button>
+                </div>
+                
+                <div class="project-card">
+                    <h3>ATMEGA32 and STM32F103C6 Drivers</h3>
+                    <p>Wrote drivers for both microcontrollers, covering 95% of the features of the hardware modules, and structured them for reuse in future projects.</p>
+                    <button onclick="window.open('https://github.com/ahmedshaban744/embedded-systeam', '_blank')">View Project</button>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Smart Home System</h3>
+                    <p>Developed a smart home system that controls 4 rooms using various sensors (LDR, LM35), interfacing hardware like LCD and keypad, with SPI and UART protocols.</p>
+                    <button onclick="window.open('https://github.com/ahmedshaban744/ITI_Training', '_blank')">View Project</button>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Real-Time Operating System (RTOS)</h3>
+                    <p>Developed a custom RTOS (Ahmed_RTLS) from scratch, supporting essential task management for efficient system performance.</p>
+                    <button onclick="window.open('https://github.com/ahmedshaban744/embedded-systeam', '_blank')">View Project</button>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Driving Monitoring Systems (Graduation Project)</h3>
+                    <p>This project reduces accidents caused by driver fatigue by monitoring facial expressions, eye movements, and vital signs using cameras and sensors connected to STM32, ESP32, and Raspberry Pi systems.</p>
+                    <button onclick="window.open('https://drive.google.com/drive/folders/1Su6FFkj7Ss2X8lSbhjKZSfqy42YQ3XVp', '_blank')">View Project</button>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Speed Dashboard System using CANoe & CAPL</h3>
+                    <p>Developed a speed dashboard system using CANoe and CAPL scripting, where two MCUs interact to simulate vehicle acceleration/deceleration, with LED indicators for speed thresholds.</p>
+                    <button onclick="window.open('https://drive.google.com/drive/folders/1zLFrFtTUWpmcWQpFa4t-yErIl7O-niaR', '_blank')">View Project</button>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Database for Student Management (C Project)</h3>
+                    <p>Implemented a database system for managing student information using LinkedList and FIFO data structures, with APIs for adding, deleting, and searching students by ID.</p>
+                    <button onclick="window.open('#', '_blank')">View Project</button>
+                </div>
+            </div>
         </section>
+        
+
+        
         <section>
             <h2>Articles</h2>
             <ul>
