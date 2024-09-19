@@ -1,13 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-image: url('https://www.cprime.com/wp-content/uploads/2022/12/cprime-myths-about-embedded-systems-development.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: #914545;
+    background-size: cover; /* Ensures the image covers the whole page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
 }
+
+/* Optional: Apply a slight overlay for better text visibility */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% transparency */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensures the overlay is behind all content */
+}
+
 button {
     margin-top: 10px;
     padding: 10px 15px;
